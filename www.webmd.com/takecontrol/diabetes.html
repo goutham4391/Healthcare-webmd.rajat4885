@@ -1,0 +1,1075 @@
+<!DOCTYPE html><html lang="en">
+<!-- Mirrored from www.webmd.com/takecontrol/diabetes by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Sep 2022 17:24:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<HEAD><!-- webmd-ccm-Non-EU gdpr phase 2  -->
+                        <script id="cookieConsentScriptNonEU" async="async" src="../../img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/webmd-ccm/webmd-ccm.min.js"></script><script>window.gdprMatch = false</script><meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VQUAUVNXDRACU1BUBAIHXw==",licenseKey:"94778f977a",applicationID:"27163309"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(28),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(29),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(10),t(9),"addEventListener"in window&&t(6),c.xhrWrappable&&t(11),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function i(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+l])try{window.performance[h](m,i,!1)}catch(t){}else try{window.performance[h]("webkit"+m,i,!1)}catch(t){}}function o(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(10),f=t(9),u=t(5),d=t(19),l="learResourceTimings",p="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",S=t("loader");if(!S.disabled){S.features.stn=!0,t(8),"addEventListener"in window&&t(6);var O=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof O&&(this.bstStart=S.now())}),a.on(b,function(t,e){var n=t[0];n instanceof O&&s("bst",[n,e,this.bstStart,S.now()])}),c.on(x,function(t,e,n){this.bstStart=S.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),this.bstType])}),f.on(x,function(){this.bstStart=S.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=S.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):p in window.performance&&(window.performance["c"+l]?window.performance[p](m,i,d(!1)):window.performance[p]("webkit"+m,i,d(!1))),document[p]("scroll",o,d(!1)),document[p]("keypress",o,d(!1)),document[p]("click",o,d(!1))}}},{}],5:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(29),a=t(28);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],10:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],11:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function o(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,S.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=t(19),p=NREUM.o,h=p.XHR,m=p.MO,v=p.PR,w=p.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,l(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,S=document.createTextNode(R);new m(a).observe(S,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],12:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(w.traceContextParentHeader=i(h,m),w.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(25),h=t(14);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],13:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function i(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(14),f=t(12).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(20),m=t(18),v=t(15),w=t(19),g=t(21).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(11),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;if("string"==typeof o?n=o:"object"==typeof o&&o instanceof y?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n),"data"!==this.params.protocol){var s=(""+(o&&o instanceof y&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],14:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("../index.html")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],15:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(18);e.exports=r},{}],16:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),o(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(28),s=t(29),c=t("ee").get("tracer"),f=t("loader"),u=t(21),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var l=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(l,function(t,e){d[e]=i(p,e,!0,"api")}),d.addPageAction=i(p,"addPageAction",!0),d.setCurrentRouteName=i(p,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),o("err",[t,f.now(),!1,e])}},{}],17:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],20:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],21:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[s,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:i}},{}],22:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(30);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],23:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],24:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var i=[r],o=a({});o&&i.push(o),p("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,l,p=t("handle"),h=t("loader"),m=t(27),v=t(19),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}l=new PerformanceObserver(o);try{l.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],25:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],26:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],27:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(19);e.exports=r;var o,a,s;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],28:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],29:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],30:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[y[n]];return l&&l.push([x,n,r,s]),s}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return l[t]=l[t]||i(n)}function w(t,e){p.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(28),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!T++){var t=O.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("https:///")||0===t.agent.indexOf("https:///")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(22),s=t("handle"),c=t(28),f=t("ee"),u=t(26),d=t(23),l=t(17),p=t(19),h=l.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},S=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:S,userAgent:u,disabled:b};if(!b){t(16),t(24),v[w]?(v[w]("DOMContentLoaded",o,p(!1)),m[w]("load",r,p(!1))):(v[g]("onreadystatechange",i),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var T=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(29),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,13,4,3]);</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Take Control of Your Diabetes Risk</title>
+
+
+    <meta name="description" content="What you eat to a lack of exercise mostly determines if you get type 2 diabetes. WebMD’s chief medical officer, John Whyte, MD, shares how you can manage it.">
+
+
+
+
+    <meta name="keywords" content="WebMD, diabetes, Dr. John Whyte, book, type 2 diabetes, diabetes risk, blood sugar, prediabetes">
+
+
+
+    <meta name="SiteID" content="0079149">
+
+
+    <link rel="canonical" href="diabetes.html">
+
+
+
+
+
+            <meta property="og:title" content="Take Control of Your Diabetes Risk">
+    
+            <meta property="og:type" content="website">
+    
+            <meta property="og:description" content="What you eat to a lack of exercise mostly determines if you get type 2 diabetes. WebMD’s chief medical officer, John Whyte, MD, shares how you can manage it.">
+    
+            <meta property="og:url" content="https://www.webmd.com/takecontrol/diabetes">
+    
+            <meta property="og:image" content="https://img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/storage/app/media/623c952a13f5b_Group17.png">
+    
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+<style>
+@media only screen and (max-width: 1023px) {
+.comp-textcontainer > .row {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    display: block !important;
+}
+}
+
+.googlefont {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+</style>
+
+<!--Page preview -->
+<script>var baseUrlForMyPages='https://st-0079149.stprod.webmd.com/';</script>
+
+<!-- Piwik ignore links with tel:xxx -->
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+        var piwikElTel = document.querySelectorAll('a[href^="tel:"]:not(.piwik_ignore)');
+        for (var i = 0; i < piwikElTel.length; i++) {
+            piwikElTel[i].classList.add("piwik_ignore");
+        }
+
+        var piwikElFax = document.querySelectorAll('a[href^="fax:"]:not(.piwik_ignore)');
+        for (var j = 0; j < piwikElFax.length; j++) {
+            piwikElFax[j].classList.add("piwik_ignore");
+        }
+    });
+</script>
+<!-- End Piwik ignore -->
+    		<script type="text/javascript">
+				var s_business_reference = "storytelling";
+				var s_publication_source = "webmd storytelling";
+				var s_pagename = "webmd.com/takecontrol/diabetes";
+				var s_package_name = "Does a Cure for Diabetes Exist?";
+				var s_furl = "../takecontrol.html";
+				var s_sponsored_uri = "takecontrol/diabetes";
+				var s_asset_id = "15b2476f40831090291b53cacaea16dd";
+			</script>
+			<script>var storyTelling = true;</script>
+			<script src="../../assets.adobedtm.com/2c8c1e17b98c/e6d47a9a26c9/launch-f46701ed8452.min.js"></script>
+<script>
+    /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
+    (function(w){
+        "use strict";
+        /* exported loadCSS */
+        var loadCSS = function( href, before, media ){
+            // Arguments explained:
+            // `href` [REQUIRED] is the URL for your CSS file.
+            // `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
+            // By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
+            // `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
+            var doc = w.document;
+            var ss = doc.createElement( "link" );
+            var ref;
+            if( before ){
+                ref = before;
+            }
+            else {
+                var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+                ref = refs[ refs.length - 1];
+            }
+
+            var sheets = doc.styleSheets;
+            ss.rel = "stylesheet";
+            ss.href = href;
+            // temporarily set media to something inapplicable to ensure it'll fetch without blocking render
+            ss.media = "only x";
+
+            // wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
+            function ready( cb ){
+                if( doc.body ){
+                    return cb();
+                }
+                setTimeout(function(){
+                    ready( cb );
+                });
+            }
+            // Inject link
+            // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
+            // Note: `insertBefore` is used instead of `appendChild`, for safety re: https://www.paulirish.com/2011/surefire-dom-element-insertion/
+            ready( function(){
+                ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+            });
+            // A method (exposed on return object for external use) that mimics onload by polling document.styleSheets until it includes the new sheet.
+            var onloadcssdefined = function( cb ){
+                var resolvedHref = ss.href;
+                var i = sheets.length;
+                while( i-- ){
+                    if( sheets[ i ].href === resolvedHref ){
+                        return cb();
+                    }
+                }
+                setTimeout(function() {
+                    onloadcssdefined( cb );
+                });
+            };
+
+            function loadCB(){
+                if( ss.addEventListener ){
+                    ss.removeEventListener( "load", loadCB );
+                }
+                ss.media = media || "all";
+            }
+
+            // once loaded, set link's media back to `all` so that the stylesheet applies once it loads
+            if( ss.addEventListener ){
+                ss.addEventListener( "load", loadCB);
+            }
+            ss.onloadcssdefined = onloadcssdefined;
+            onloadcssdefined( loadCB );
+            return ss;
+        };
+        // commonjs
+        if( typeof exports !== "undefined" ){
+            exports.loadCSS = loadCSS;
+        }
+        else {
+            w.loadCSS = loadCSS;
+        }
+    }( typeof global !== "undefined" ? global : this ));
+</script>
+<script>loadCSS("../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/combine/ba963722b699f5d0f2f3618899ef04ce-1647433038.1479.del");</script>
+
+<link rel="stylesheet" href="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/combine/9762f31a3bf5d76116bed382b3e14df3-1648562850.147a.del">
+
+
+<link rel="stylesheet" href="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/combine/393bb6263a1913dfb97e9410e76134c5-.css">
+
+<!--[if lte IE 9]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser.  Please <a href="https://outdatedbrowser.com/en">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+</head><body class='general webmd-base-theme color-webmd-Base-1'><div id="ada-modal-on" class="ada_modal" style="display: none;">
+    <div class="ada_modal--container">
+        <p class="ada_modal--description">Would you like to switch to the accessible version of this site?</p>
+        <a href="#" tabindex="0" class="ada_modal--link" title="Go to accessible site" data-action="accessible">Go to accessible site</a>
+        <a href="#" tabindex="1" class="ada_modal--close" title="Close modal window" data-action="close">
+            <span>Close modal window</span>
+        </a>
+    </div>
+</div>
+<div id="ada-modal-off" class="ada_modal" style="display: none;">
+    <div class="ada_modal--container">
+        <p class="ada_modal--description">Don't need the accessible version of this site?</p>
+        <a href="#" tabindex="0" class="ada_modal--link" title="Hide the accessibility button" data-action="remove-accessible">Hide the accessibility button</a>
+        <a href="#" tabindex="1" class="ada_modal--close" title="Close modal window" data-action="close">
+            <span>Close modal window</span>
+        </a>
+    </div>
+</div>
+
+<div id="ada-toolbar" class="ada_toolbar left" style="display: none;">
+            <div class="ada_toolbar--content">
+            <a href="#" data-modal-id="ada-modal-on" data-action="modal" class="ada_toolbar--opener" title="Accessibility View" tabindex="0">
+                Accessibility View
+            </a>
+            <a href="#" data-modal-id="ada-modal-off" data-action="modal" class="ada_toolbar--close" title="Close toolbar" tabindex="0">
+                <span>Close toolbar</span>
+            </a>
+        </div>
+    </div>
+<noscript>
+    <div class="no-js-alert">Javascript must be enabled for the correct page display</div>
+</noscript>
+
+<style id="sectionCss">#id_aca93f27-9b53-57d6-a5f8-05103d9c9cbe::before { opacity: 1 }
+#id_545eab87-7c0f-5af0-817e-4193238900a6 { min-height: 1px }
+#id_545eab87-7c0f-5af0-817e-4193238900a6 { background-size: cover;background-position: center }#id_545eab87-7c0f-5af0-817e-4193238900a6::before { opacity: 0 }
+@media screen and (min-width: 992px) {#id_545eab87-7c0f-5af0-817e-4193238900a6 .section__column-2.ple-column-padding { padding-top: 30px; }}
+@media screen and (max-width: 767.98px) {#id_545eab87-7c0f-5af0-817e-4193238900a6 .section__column-2.ple-column-padding { padding-top: 30px; }}
+@media screen and (min-width:768px) and (max-width:991.98px) {#id_545eab87-7c0f-5af0-817e-4193238900a6 .section__column-2.ple-column-padding { padding-top: 30px; }}
+#id_3105ac15-5354-52db-9ab7-6cef2001d428 { min-height: 1px }
+#id_3105ac15-5354-52db-9ab7-6cef2001d428::before { opacity: 1 }
+#id_c349bc7d-b7f2-51e6-8c1f-93e791b5c47f { min-height: 1px }
+#id_c349bc7d-b7f2-51e6-8c1f-93e791b5c47f::before { opacity: 1 }
+#id_0f19bc5f-b3d8-55a1-b448-895da1093394::before { opacity: 1 }
+#id_68aafd49-2516-5520-8db8-c6c370ba8299::before { opacity: 1 }
+#id_cf097509-cf48-5b7c-b20b-b3e62da5678e { min-height: 1px }
+#id_cf097509-cf48-5b7c-b20b-b3e62da5678e::before { opacity: 1 }
+@media screen and (min-width: 992px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-1.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+@media screen and (max-width: 767.98px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-1.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+@media screen and (min-width:768px) and (max-width:991.98px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-1.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+@media screen and (min-width: 992px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-2.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+@media screen and (max-width: 767.98px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-2.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+@media screen and (min-width:768px) and (max-width:991.98px) {#id_cf097509-cf48-5b7c-b20b-b3e62da5678e .section__column-2.ple-column-padding { padding-left: 10px;padding-right: 10px; }}
+#id_27c104f2-4724-5117-9478-08f3de4fd554 { min-height: 1px }
+#id_27c104f2-4724-5117-9478-08f3de4fd554 { background-size: cover;background-position: center }#id_27c104f2-4724-5117-9478-08f3de4fd554::before { opacity: 0 }
+@media screen and (min-width: 992px) {#id_27c104f2-4724-5117-9478-08f3de4fd554 .section__column-1.ple-column-padding { padding-top: 20px; }}
+@media screen and (max-width: 767.98px) {#id_27c104f2-4724-5117-9478-08f3de4fd554 .section__column-1.ple-column-padding { padding-top: 20px; }}
+@media screen and (min-width:768px) and (max-width:991.98px) {#id_27c104f2-4724-5117-9478-08f3de4fd554 .section__column-1.ple-column-padding { padding-top: 20px; }}
+#id_b0867110-213a-5244-ac13-ecd2edc27946 { min-height: 1px }
+#id_b0867110-213a-5244-ac13-ecd2edc27946 { background-size: cover;background-position: center }#id_b0867110-213a-5244-ac13-ecd2edc27946::before { opacity: 0 }
+#id_1dcb3c22-dd25-54b5-bb25-2c7db41a08a2::before { opacity: 1 }</style>
+
+<div data-control="layout-editor">
+    <div id="ple_html_content">
+        <div class="ple__container pagelayouteditor__container "><div class=" ple__container--inner pagelayouteditor__container--inner" data-component-name="ple" data-component-alias="ple"><style>
+    .sweet-alert {
+		display:none;
+	}
+	.section-lazy {
+  		background-image: none !important;
+	}
+</style>
+<style id="dynamicSectionCss">
+#id_545eab87-7c0f-5af0-817e-4193238900a6 {  background-image: url("../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/storage/app/media/rectangle-70a1f2.png?resize=*%3a*");  }
+#id_27c104f2-4724-5117-9478-08f3de4fd554 {  background-image: url("../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/storage/app/media/rectangle-70a1f2.png?resize=*%3a*");  }
+#id_b0867110-213a-5244-ac13-ecd2edc27946 {  background-image: url("../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/storage/app/media/rectangle-70a1f2.png?resize=*%3a*");  }
+</style>
+<script id="ple-data-json" type="application/json">
+    {
+    "fixedSection":	  {"id":"ple_fixed","backToTop":true,"hideSiteEditor":false,"placement":{"place":"center-right","useDefaultOffset":true,"offsetDistance":null},"spacing":{"space":"default","offsetDistance":null},"ordering":[],"sectionClassName":null}
+    }
+</script>
+
+</div></div>    </div>
+
+    <div class="fullwidth-layout">
+        <div data-control="section-available" class="section-available"><div class="section-base-container" data-section-id="id_aca93f27-9b53-57d6-a5f8-05103d9c9cbe"><div class="section-overlap-container"></div><div id="id_aca93f27-9b53-57d6-a5f8-05103d9c9cbe" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    section-webmdheader"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-webmd_header"><div class="componentWith__container webmdheader__container "><div class="ple-column--single ple-module-container webmd_header__container--inner webmdheader__container--inner" data-component-name="webmd_header" data-component-alias="webmd_header" data-widget-alias="Smb__Webmdheader__Widgets__WebmdheaderSettings___webmd_header" data-widget-id-base="WebmdheaderSettings-Smb__Webmdheader__Widgets__WebmdheaderSettings___webmd_header" data-component-prop-componentwith="12"><style>
+    .comp-webmdheader
+    {
+        background-color:#ffffff;        
+    }
+</style>
+<div class="comp-webmdheader">
+<div class="webmd-dna-header container header-side">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="dna-header-logo-container" data-metrics-module="core">
+                                    <a href="../index.html">
+                        <img title="WebMD: Better Information. Better Health." class="global-nav-logo" alt="Logo for WebMD" src="https://res.cloudinary.com/teepublic/image/private/s--3CKHRZxj--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1457821899/production/designs/445871_3.jpg" height="30">
+                    </a>
+                            </div>
+        </div>        
+                
+    </div>
+</div>
+</div>
+</div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_545eab87-7c0f-5af0-817e-4193238900a6"><div class="section-overlap-container"></div><div id="id_545eab87-7c0f-5af0-817e-4193238900a6" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1 googlefont   textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-4 section__column-1 col-sm-12 alias-txt_title_diabetes"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_title_diabetes__container--inner textcontainer__container--inner" data-component-name="txt_title_diabetes" data-component-alias="txt_title_diabetes" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_title_diabetes" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_title_diabetes" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d946bdcfc">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                        <div class="textcontainer-header textcontainer-header-small-font none">
+                <p style="text-align: left;" class="text-left googlefont"><strong>Does a Cure for Diabetes Exist?</strong></p>
+
+            </div>
+                                                <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <p class="text-left googlefont">Let's start with some good news: Blood sugars in prediabetes and type 2 diabetes can be reversed to normal under certain circumstances.</p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div><div class="col-lg-4 section__column-2 ple-column-padding col-sm-12 alias-txt_book_image"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_book_image__container--inner textcontainer__container--inner" data-component-name="txt_book_image" data-component-alias="txt_book_image" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_book_image" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_book_image" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d946cb84a">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                                                <div class="textcontainer-body textcontainer-body-text-medium-font none">
+                <p style="text-align: center;" class="text-center"><a target="_blank"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/Diabetesbook-header.147d3f17.delay?resize=*:*" data-image="mediaManagerImageDiabetesbook-header.png" alt="Book" class="align-none"></a></p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div><div class="col-lg-4 section__column-3 col-sm-12 alias-txt_buy_links"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_buy_links__container--inner textcontainer__container--inner" data-component-name="txt_buy_links" data-component-alias="txt_buy_links" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_buy_links" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_buy_links" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d946d1b33">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                                                <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <p class="text-center googlefont"><strong>Order From Retailers</strong><p class="text-center"><a href="https://www.amazon.com/Take-Control-Your-Diabetes-Risk/dp/0785240640"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/amazon-button3f17.png?resize=*:*" data-image="mediaManagerImageamazon-button.png" alt="Amazon" class="align-center" style="display: block; margin: auto;"></a></p><p class="text-center"><a href="https://www.barnesandnoble.com/w/take-control-of-your-diabetes-risk-john-whyte-md-mph/1139742840"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/barnes-noble-button.147f3f17.delay?resize=*:*" data-image="mediaManagerImageBN-button.png" alt="BN" class="align-center" style="display: block; margin: auto;"></a></p><p class="text-center"><a href="https://bookshop.org/books/take-control-of-your-diabetes-risk/9780785240648"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/bookshop_button3f17.png?resize=*:*" data-image="mediaManagerImagebookshop_button.png" alt="Bookshop" class="align-center" style="display: block; margin: auto;"></a></p><p class="text-center"><a href="https://www.indiebound.org/book/9780785240648"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/indiebund-button3f17.png?resize=*:*" data-image="mediaManagerImageIndie_bound_button.png" alt="IB" class="align-center" style="display: block; margin: auto;"></a></p><p class="text-center"><a href="https://www.booksamillion.com/p/Take-Control-Your-Diabetes-Risk/John-Whyte-MD-Mph/9780785240648"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/bam-button3f17.png?resize=*:*" data-image="mediaManagerImagebam-button.png" alt="BAM" class="align-center" style="display: block; margin: auto;"></a></p><p></p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_3105ac15-5354-52db-9ab7-6cef2001d428"><div class="section-overlap-container"></div><div id="id_3105ac15-5354-52db-9ab7-6cef2001d428" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1 .googlefont   textconatiner-no-padding-1-1 textcontainer-default-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-txt_review"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_review__container--inner textcontainer__container--inner" data-component-name="txt_review" data-component-alias="txt_review" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_review" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_review" data-component-prop-componentwith="12">
+
+<div class="comp-textcontainer col-md-12  padding-none  ">
+                    <div class="row col-md-12">
+            <div class="textcontainer_container textcontainer_center_text textcontainer_vertical_middle_text col-md-8 background-overlap-partial
+                    offset-md-2
+                        ">                                                 <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <figure style="text-align: center;" class="text-center"><a target="_blank"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/ratings3f17.png?resize=*:*" data-image="mediaManagerImageratings.png" alt="Rating" class="align-none"></a><p>Whyte is enthusiastic and keeps things shame-free while arming readers with information: "Don't blame yourself and don't let anyone blame you," he writes, ... "you have the power to take control of your risk. Start using it!"</p><p><strong>- Publishers Weekly</strong></p></figure>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_c349bc7d-b7f2-51e6-8c1f-93e791b5c47f"><div class="section-overlap-container"></div><div id="id_c349bc7d-b7f2-51e6-8c1f-93e791b5c47f" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    textcontainer-default-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-txt_quote"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_quote__container--inner textcontainer__container--inner" data-component-name="txt_quote" data-component-alias="txt_quote" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_quote" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_quote" data-component-prop-componentwith="12">
+
+<div class="comp-textcontainer col-md-12  padding-narrow  ">
+                    <div class="row col-md-12">
+            <div class="textcontainer_container textcontainer_center_text textcontainer_vertical_middle_text col-md-8 background-overlap-partial
+                    offset-md-2
+                        ">                                                 <div class="textcontainer-body textcontainer-body-text-medium-font none">
+                <p style="text-align: center;" class="text-center"><strong>"With prediabetes, you have a chance -- a limited one -- to turn things around with the right amount of behavior change."&nbsp;</strong><p style="text-align: center;" class="text-center"><strong>&mdash; John Whyte, MD</strong></p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_0f19bc5f-b3d8-55a1-b448-895da1093394"><div class="section-overlap-container"></div><div id="id_0f19bc5f-b3d8-55a1-b448-895da1093394" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    section-webmdvideoplayer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-vd_jw_diabetes"><div class="componentWith__container webmdvideoplayer__container "><div class="ple-column--single ple-module-container vd_jw_diabetes__container--inner webmdvideoplayer__container--inner" data-component-name="vd_jw_diabetes" data-component-alias="vd_jw_diabetes" data-widget-alias="Smb__Webmdvideoplayer__Widgets__WebmdvideoplayerSettings___vd_jw_diabetes" data-widget-id-base="WebmdvideoplayerSettings-Smb__Webmdvideoplayer__Widgets__WebmdvideoplayerSettings___vd_jw_diabetes" data-component-prop-componentwith="12"><div class="comp-webmdvideoplayer ">
+    
+    <div class="webmd-videoloader module responsive-video-container empty" data-chronid="091e9c5e8236f335"></div>
+
+
+</div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_68aafd49-2516-5520-8db8-c6c370ba8299"><div class="section-overlap-container"></div><div id="id_68aafd49-2516-5520-8db8-c6c370ba8299" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    textcontainer-default-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-txt_subtext"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_subtext__container--inner textcontainer__container--inner" data-component-name="txt_subtext" data-component-alias="txt_subtext" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_subtext" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_subtext" data-component-prop-componentwith="12">
+
+<div class="comp-textcontainer col-md-12  padding-narrow  ">
+                    <div class="row col-md-12">
+            <div class="textcontainer_container textcontainer_center_text textcontainer_vertical_middle_text col-md-8 background-overlap-partial
+                    offset-md-2
+                        ">                                                 <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <p class="text-left">We used to think that by the time you were diagnosed with diabetes, the beta cells in the pancreas had burned out and lost function and that was the end of them. If that were the case, we would never be able to reverse or prevent the complications. But we now have evidence that these critical cells may indeed be able to regenerate and restore their function -- and that allows you to reverse the effects of persistently elevated blood sugar.<p class="text-left">Some people consider this a "cure," but I don't think that's the right way to think about it. The reason why is that high blood sugars and elevated insulin levels have already started to cause damage, and if you have risk for diabetes, you continue to be at risk unless something changes. Type 2 diabetes also has a genetic risk component that you cannot change. I like to make the comparison to cancer -- you can send diabetes and prediabetes into "remission."</p><p class="text-left">How do you do it?</p><ul class="text-left"><li>Focus less on a specific diet and instead create a pattern of eating. This should include fish at least twice a week, fruits and vegetables every day, and limits on drinks besides water.</li><li>Exercise smarter not longer. Consider high-intensity exercise such as power walking for 10 minutes, three times a week.</li><li>Recognize the mind-body connection. Stress will impact your hormones, which will affect your blood sugar. Learn how mindfulness, meditation, and gratitude play a role in diabetes management.</li></ul><p class="text-left">Keep in mind that for most people, losing just 5% to 7% of excess body weight can help restore blood sugar control to normal. Realize you have the power to take control of your risk. Get informed and use that power!</p>
+
+            </div>
+                                    <div class="textcontainer-disclaimer none">
+                
+            </div>
+                                </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_cf097509-cf48-5b7c-b20b-b3e62da5678e"><div class="section-overlap-container"></div><div id="id_cf097509-cf48-5b7c-b20b-b3e62da5678e" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    textcontainer-default-background section-textcontainer section-editable"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-6 section__column-1 ple-column-padding col-sm-12 alias-txt_jwintro"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_jwintro__container--inner textcontainer__container--inner" data-component-name="txt_jwintro" data-component-alias="txt_jwintro" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_jwintro" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_jwintro" data-component-prop-componentwith="6">
+<div class="comp-textcontainer col-md-12  padding-narrow  " id="cta_6243d94708939">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_bottom_text  ">
+                                    <div class="textcontainer-subheader textcontainer-sub-header-medium-font none">
+                <p style="text-align: left;" class="text-left"><strong>JOHN WHYTE, MD, MPH</strong></p>
+
+            </div>
+                                    <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <p class="text-left">is a popular physician and writer who has been communicating to the public about health issues for nearly two decades. In his role at WebMD, he helps lead editorial direction around the most important health topics, explaining them in ways people can understand. He is passionate about changing the way we think about health. Dr. Whyte continues to see patients in the Washington, DC area. He is a dedicated husband and dad.</p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div><div class="col-lg-6 section__column-2 ple-column-padding col-sm-12 alias-ed_image_jw"><div class="ed_image_jw__container editable__container "><div class="ple-column--single ple-module-container ed_image_jw__container--inner editable__container--inner" data-component-name="ed_image_jw" data-component-alias="ed_image_jw"><p><a target="_blank"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/storage/app/media/johnwhyte-desktop%402xa1f2.png?resize=*%3a*" data-image="mediaManagerImagejohnwhyte-desktop@2x.png" alt="JW" class="align-center" style="display: block; margin: auto;"></a></p></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_27c104f2-4724-5117-9478-08f3de4fd554"><div class="section-overlap-container"></div><div id="id_27c104f2-4724-5117-9478-08f3de4fd554" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    textcontainer-full-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 ple-column-padding col-sm-12 alias-txt_media_awards"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_media_awards__container--inner textcontainer__container--inner" data-component-name="txt_media_awards" data-component-alias="txt_media_awards" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_media_awards" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_media_awards" data-component-prop-componentwith="12">
+
+<div class="comp-textcontainer col-md-12  padding-narrow  ">
+                    <div class="row col-md-12">
+            <div class="textcontainer_container textcontainer_left_text textcontainer_vertical_middle_text col-md-8 background-overlap-full
+                        ">                                     <div class="textcontainer-subheader textcontainer-sub-header-large-font none">
+                <p class="text-center"><strong>Explore John Whyte's Other Work</strong></p>
+
+            </div>
+                                                        </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_b0867110-213a-5244-ac13-ecd2edc27946"><div class="section-overlap-container"></div><div id="id_b0867110-213a-5244-ac13-ecd2edc27946" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer textconatiner-no-padding-3-1 textconatiner-no-padding-3-2 textconatiner-no-padding-3-3 textcontainer-default-background section-textcontainer"><div class="section--inner container section--light  "><div class="row equal"><div class="col-lg-4 section__column-1 col-sm-12 alias-txt_award1"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_award1__container--inner textcontainer__container--inner" data-component-name="txt_award1" data-component-alias="txt_award1" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_award1" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_award1" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d9472ddc3">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                                                <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <figure class="text-center"><a target="_blank"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/Diabetesbook3f17.png?resize=*:*" data-image="mediaManagerImageDiabetesbook.png" alt="Book" class="align-center" style="display: block; margin: auto;"></a></figure>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div><div class="col-lg-4 section__column-2 col-sm-12 alias-txt_book2"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_book2__container--inner textcontainer__container--inner" data-component-name="txt_book2" data-component-alias="txt_book2" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_book2" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_book2" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d947332af">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                                                <div class="textcontainer-body textcontainer-body-text-small-font none">
+                <p><a target="_blank"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/Cancer3f17.png?resize=*:*" data-image="mediaManagerImageCancer.png" alt="Book" class="align-center" style="display: block; margin: auto;"></a><p class="text-center"><a href="../takecontrol.html"><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/learn-more-cta3f17.png?resize=*:*" data-image="mediaManagerImagelearn-more-cta.png" alt="CTA" class="align-center" style="display: block; margin: auto;"></a></p><p></p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div><div class="col-lg-4 section__column-3 col-sm-12 alias-txt_comingsoon"><div class="componentWith__container textcontainer__container "><div class="ple-column--single ple-module-container txt_comingsoon__container--inner textcontainer__container--inner" data-component-name="txt_comingsoon" data-component-alias="txt_comingsoon" data-widget-alias="Smb__Textcontainer__Widgets__TextcontainerSettings___txt_comingsoon" data-widget-id-base="TextcontainerSettings-Smb__Textcontainer__Widgets__TextcontainerSettings___txt_comingsoon" data-component-prop-componentwith="4">
+<div class="comp-textcontainer col-md-12  padding-none  " id="cta_6243d94738cd5">
+                        <div class="row col-md-12">
+            <div class="textcontainer_container background-overlap-full textcontainer_center_text textcontainer_vertical_middle_text  ">
+                                                <div class="textcontainer-body textcontainer-body-text-medium-font none">
+                <p><img src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/0079149/storage/app/media/coming-soon3f17.png?resize=*:*" data-image="mediaManagerImagecoming-soon.png" alt="Coming Soon" class="align-center" style="display: block; margin: auto;"></p>
+
+            </div>
+                                            </div>
+    </div>
+    </div></div></div></div></div></div></div></div><div class="section-base-container" data-section-id="id_1dcb3c22-dd25-54b5-bb25-2c7db41a08a2"><div class="section-overlap-container"></div><div id="id_1dcb3c22-dd25-54b5-bb25-2c7db41a08a2" data-control="section" data-animation="anim-none" data-tabletanimation="anim-desktop" data-mobileanimation="anim-desktop" data-adsunit="3" class="section section__bg--light-1    section-webmdfooter"><div class="section--inner container-fluid section--light  "><div class="row equal"><div class="col-lg-12 section__column-1 col-sm-12 alias-webmd_footer"><div class="componentWith__container webmdfooter__container "><div class="ple-column--single ple-module-container webmd_footer__container--inner webmdfooter__container--inner" data-component-name="webmd_footer" data-component-alias="webmd_footer" data-widget-alias="Smb__Webmdfooter__Widgets__WebmdfooterSettings___webmd_footer" data-widget-id-base="WebmdfooterSettings-Smb__Webmdfooter__Widgets__WebmdfooterSettings___webmd_footer" data-component-prop-componentwith="12">
+<div class="comp-webmdfooter">
+    
+    <script type="text/javascript">
+        var s_topic='1667';
+        var s_channel_health='Diabetes';
+        var s_sponsor_program='';
+        var channel_health_number='1033';
+        var s_package_type='storytelling';
+    </script>
+
+                            <!-- Get data and loop it and create HTML-->
+
+                    
+    <div class="global-container-2">
+        <div id="ContentPane50" class="hs-more-from-webmd pane row" tabindex="-1">
+            <div class="module module-f-hs">
+                <h3> Health Solutions </h3>
+                <ul>
+                                                            <li>
+
+                        <a href="../peyronies-treatment-option/treatment-option.html" data-st-mmodule="f-hs" data-st-mlink="1">Penis Curved When Erect?</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dna/the-turning-point/cad-pad.html" data-st-mmodule="f-hs" data-st-mlink="2">Could I have CAD?</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dupuytrens/treatment.html" data-st-mmodule="f-hs" data-st-mlink="3">Treat Bent Fingers</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dna/metastatic-bc-resource-center.html" data-st-mmodule="f-hs" data-st-mlink="4">Treat HR+, HER2- MBC</a>
+                    </li>
+                                        <li>
+
+                        <a href="../index.html" data-st-mmodule="f-hs" data-st-mlink="5">Tired of Dandruff?</a>
+                    </li>
+                                        <li>
+
+                        <a href="../default.html" data-st-mmodule="f-hs" data-st-mlink="6">Benefits of CBD</a>
+                    </li>
+                                        <li>
+
+                        <a href="../default.html" data-st-mmodule="f-hs" data-st-mlink="7">Rethink MS Treatment</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dna/the-turning-point/afib.html" data-st-mmodule="f-hs" data-st-mlink="8">AFib-Related Strokes</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dna/the-turning-point/dvt-pe.html" data-st-mmodule="f-hs" data-st-mlink="9">Risk of a Future DVT/PE</a>
+                    </li>
+                                        <li>
+
+                        <a href="../peyronies-treatment-option/treatment-option.html" data-st-mmodule="f-hs" data-st-mlink="10">Is My Penis Normal?</a>
+                    </li>
+                                        <li>
+
+                        <a href="../default.html" data-st-mmodule="f-hs" data-st-mlink="11">Relapsing MS Options</a>
+                    </li>
+                                        <li>
+
+                        <a href="../hepatitis/default.html" data-st-mmodule="f-hs" data-st-mlink="12">Liver Transplants Save Lives</a>
+                    </li>
+                                        <li>
+
+                        <a href="../index.html" data-st-mmodule="f-hs" data-st-mlink="13">Finance Plastic Surgery</a>
+                    </li>
+                                        <li>
+
+                        <a href="../dupuytrens/default.html" data-st-mmodule="f-hs" data-st-mlink="14">Bent Finger Causes</a>
+                    </li>
+                                        <li>
+
+                        <a href="../skin-problems-and-treatments/psoriasis/severe-psoriasis.html" data-st-mmodule="f-hs" data-st-mlink="15">Living With Psoriasis?</a>
+                    </li>
+                                        <li>
+
+                        <a href="../index.html" data-st-mmodule="f-hs" data-st-mlink="16">Missing Teeth?</a>
+                    </li>
+                    
+                                    </ul>
+            </div>
+            <div class="module module-f-idc">
+                <h3> More from WebMD </h3>
+                <ul>
+                                                            <li>
+
+                        <a href="../multiple-sclerosis/ss/slideshow-advice-relapsing-ms.html" data-st-mmodule="f-idc" data-st-mlink="1">5 Tips to Help With Relapsing MS</a>
+                    </li>
+                                        <li>
+
+                        <a href="../sleep-disorders/narcolepsy-perspectives-20/slideshow-narcolepsy-expert-advice.html" data-st-mmodule="f-idc" data-st-mlink="2">How to Thrive With Narcolepsy</a>
+                    </li>
+                                        <li>
+
+                        <a href="../skin-problems-and-treatments/story/vce-hs-home-care-help.html" data-st-mmodule="f-idc" data-st-mlink="3">Relief for Blocked Hair Follicles</a>
+                    </li>
+                                        <li>
+
+                        <a href="../arthritis/psoriatic-arthritis/ss/slideshow-psoriatic-arthritis-sleep-tips.html" data-st-mmodule="f-idc" data-st-mlink="4">Psoriatic Arthritis and Your Sleep</a>
+                    </li>
+                                        <li>
+
+                        <a href="../skin-problems-and-treatments/psoriasis/video/video-psoriasis-ballerina.html" data-st-mmodule="f-idc" data-st-mlink="5">What Psoriasis Feels Like</a>
+                    </li>
+                                        <li>
+
+                        <a href="../arthritis/psoriatic-arthritis/psa-stories-21/video-psa-save-energy.html" data-st-mmodule="f-idc" data-st-mlink="6">First Psoriatic Arthritis Flare</a>
+                    </li>
+                                        <li>
+
+                        <a href="../rheumatoid-arthritis/ra-life-21/video-ra-check-up.html" data-st-mmodule="f-idc" data-st-mlink="7">Talking to Your Doctor About RA</a>
+                    </li>
+                                        <li>
+
+                        <a href="../ibd-crohns-disease/crohns-disease/features/crohns-full-body-disease.html" data-st-mmodule="f-idc" data-st-mlink="8">Crohn&#039;s: A &#039;Full-Body&#039; Disease</a>
+                    </li>
+                                        <li>
+
+                        <a href="../ibd-crohns-disease/crohns-disease/story/avoid-crohns-flares.html" data-st-mmodule="f-idc" data-st-mlink="9">Avoiding Crohn’s Flares</a>
+                    </li>
+                                        <li>
+
+                        <a href="../diet/health-benefits-hemp-seed-oil.html" data-st-mmodule="f-idc" data-st-mlink="10">Health Benefits of Hemp Seed Oil</a>
+                    </li>
+                                        <li>
+
+                        <a href="../skin-problems-and-treatments/psoriasis/psoriatic-disease-perspectives-21/slideshow-advocacy-psoriatic-disease-tips.d4.dela" data-st-mmodule="f-idc" data-st-mlink="11">Live Better With Psoriatic Disease</a>
+                    </li>
+                                        <li>
+
+                        <a href="../multiple-sclerosis/b-cell-ms-types.html" data-st-mmodule="f-idc" data-st-mlink="12">Types of B-Cell Therapy for MS</a>
+                    </li>
+                                        <li>
+
+                        <a href="../diet/hemp-health-benefits-nutrition-uses.html" data-st-mmodule="f-idc" data-st-mlink="13">5 Health Benefits of Hemp</a>
+                    </li>
+                                        <li>
+
+                        <a href="../prostate-cancer/prostate-cancer-spreads.html" data-st-mmodule="f-idc" data-st-mlink="14">Why Prostate Cancer Spreads</a>
+                    </li>
+                                        <li>
+
+                        <a href="../breast-cancer/bc-perspectives-21/slideshow-advanced-bc-best-life.html" data-st-mmodule="f-idc" data-st-mlink="15">Living with Advanced Breast Cancer</a>
+                    </li>
+                                        <li>
+
+                        <a href="../breast-cancer/ss/slideshow-breast-cancer-metastasis.html" data-st-mmodule="f-idc" data-st-mlink="16">Where Breast Cancer Spreads</a>
+                    </li>
+                    
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    
+
+        <footer role="contentinfo" tabindex="-1" data-js="global-footer">
+        <div id="ContentPane55" class="pane" tabindex="-1">
+            <nav aria-label="Footer Menu">
+                <ul class="global-footer" data-metrics-module="ftr">
+                                        
+                                        <li class="global-footer-column logo">
+                        <a href="../index.html">
+                            <img src="https://res.cloudinary.com/teepublic/image/private/s--3CKHRZxj--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1457821899/production/designs/445871_3.jpg" alt="Logo for WebMD" title="WebMD: Better information. Better health." class="global-footer-logo" height="48" width="110">
+                        </a>
+                        <ul class="social-icons">
+
+                            
+                            
+                            <li>
+                                                                <a class="primary-fb" href="https://www.facebook.com/WebMD/">
+                                    <?xml version='1.0' encoding='UTF-8'?>
+                                    <svg width='32px' height='32px' viewbox='0 0 32 32' version='1.1' xmlns='https://www.w3.org/2000/svg' xmlns:xlink='https://www.w3.org/1999/xlink'>
+                                        <title>Facebook</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs></defs>
+                                        <g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>
+                                            <g id='PAGE-12-Buttons' transform='translate(-106.000000, -2011.000000)'>
+                                                <g id='Group-9' transform='translate(106.000000, 2011.000000)'>
+                                                    <g id='Facebook'>
+                                                        <rect id='Rectangle-240' fill='#235B9E' x='0' y='0' width='32' height='32' rx='3'></rect>
+                                                        <path d='M13.9901116,23.7714286 L16.3703347,23.7714286 L16.3703347,15.4406476 L18.9802494,15.4406476 L19.2539751,13.0604244 L16.3703347,13.0604244 L16.3703347,11.5347014 C16.3703347,10.9491665 17.2557777,10.6802013 17.5306935,10.6802013 L18.7505579,10.6802013 L18.7505579,8.23809232 L16.7904441,8.22857143 C14.2138525,8.22857143 13.9901116,10.1494115 13.9901116,11.3776067 L13.9901116,13.0604244 L12.8,13.0604244 L12.8,15.4406476 L13.9901116,15.4406476 L13.9901116,23.7714286' id='Fill-4' fill='#FFFFFF'></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                                                                                
+
+                            </li>
+                            
+                            <li>
+                                                                                                <a class="primary-tw" href="https://twitter.com/webmd">
+                                    <svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                        <!-- Generator: Sketch 51.3 (57544) - https://www.bohemiancoding.com/sketch -->
+                                        <title>Twitter</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs></defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="PAGE-12-Buttons" transform="translate(-150.000000, -2011.000000)">
+                                                <g id="Group-9" transform="translate(106.000000, 2011.000000)">
+                                                    <g id="Twitter" transform="translate(44.000000, 0.000000)">
+                                                        <rect id="Rectangle-240" fill="#00ABE3" x="0" y="0" width="32" height="32" rx="3"></rect>
+                                                        <path d="M22.8866624,10.2913945 C22.2556942,10.6591444 21.5579769,10.9274004 20.8136611,11.070974 C20.2204755,10.4463029 19.3728875,10.0571429 18.433362,10.0571429 C16.6323949,10.0571429 15.1727299,11.4941383 15.1727299,13.2673982 C15.1727299,13.5192817 15.2016965,13.7636087 15.2558515,13.9991198 C12.5455849,13.8656215 10.1413568,12.5873127 8.53308062,10.6440314 C8.2522305,11.1188318 8.09102506,11.6704567 8.09102506,12.2586047 C8.09102506,13.3731893 8.77111053,14.3555349 9.64514631,14.9310888 C9.11115327,14.9147163 8.27112177,14.7698833 8.27112177,14.5293346 L8.27112177,14.5696359 C8.27112177,16.1250166 9.2925094,17.4234761 10.7849192,17.7194392 C10.5103662,17.7924854 10.1715828,17.8315274 9.87310089,17.8315274 C9.66277816,17.8315274 9.43356416,17.8113767 9.23331677,17.7735942 C9.65018398,19.0493841 10.8403336,19.9775749 12.2685131,20.0040226 C11.1514097,20.8642048 9.73960263,21.3780472 8.20941031,21.3780472 C7.94619204,21.3780472 7.68423319,21.3629342 7.42857143,21.3339676 C8.87312336,22.2445265 10.5859312,22.7760007 12.4271997,22.7760007 C18.4283243,22.7760007 21.7065882,17.8831635 21.7065882,13.6401858 C21.7065882,13.5016499 21.7053288,13.3618545 21.6990317,13.224578 C22.3350375,12.7724471 22.8891812,12.2069686 23.3261991,11.5621468 C22.74057,11.8178086 22.1121206,11.9903488 21.4521858,12.0671733 C22.1259742,11.6704567 22.6423354,11.0420074 22.8866624,10.2913945" id="Fill-2" fill="#FFFFFF"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                                                
+
+                            </li>
+                            
+                            <li>
+                                                                                                                                <a class="primary-pt" href="https://www.pinterest.com/webmd/">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                        <!-- Generator: Sketch 51.3 (57544) - https://www.bohemiancoding.com/sketch -->
+                                        <title>Pinterest</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs></defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="PAGE-12-Buttons" transform="translate(-194.000000, -2011.000000)">
+                                                <g id="Group-9" transform="translate(106.000000, 2011.000000)">
+                                                    <g id="Pinterest" transform="translate(88.000000, 0.000000)">
+                                                        <rect id="Rectangle-240" fill="#EB1A22" x="0" y="0" width="32" height="32" rx="3"></rect>
+                                                        <path d="M12.9755,23.2131429 C12.9895,23.3122637 13.126,23.335956 13.1875,23.2614945 C13.275,23.1546374 14.4095,21.8438242 14.795,20.5349451 C14.904,20.1636044 15.4205,18.245011 15.4205,18.245011 C15.7305,18.7971868 16.6345,19.2826374 17.5965,19.2826374 C20.4585,19.2826374 22.4,16.8413626 22.4,13.5727912 C22.4,11.1015385 20.1625,8.8 16.763,8.8 C12.5335,8.8 10.4,11.6382418 10.4,14.0045714 C10.4,15.4372308 10.9805,16.7122637 12.2225,17.188044 C12.4275,17.2654066 12.61,17.1909451 12.6685,16.9791648 C12.71,16.8331429 12.807,16.4647033 12.8515,16.309978 C12.91,16.1010989 12.8875,16.0285714 12.723,15.8462857 C12.364,15.4502857 12.135,14.9377582 12.135,14.2124835 C12.135,12.1062857 13.819,10.2215385 16.5185,10.2215385 C18.9095,10.2215385 20.2235,11.5889231 20.2235,13.4141978 C20.2235,15.8167912 19.087,17.8441758 17.4015,17.8441758 C16.4695,17.8441758 15.772,17.1237363 15.995,16.2398681 C16.2635,15.1843516 16.782,14.0451868 16.782,13.2831648 C16.782,12.6014066 16.3905,12.0327912 15.581,12.0327912 C14.6285,12.0327912 13.8635,12.9543736 13.8635,14.1887912 C13.8635,14.9754725 14.148,15.5078242 14.148,15.5078242 C14.148,15.5078242 13.1735,19.3706374 13.003,20.0475604 C12.6625,21.3951209 12.951,23.0468132 12.9755,23.2131429" id="Fill-8" fill="#FFFFFF"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                
+
+                            </li>
+                                                                                </ul>
+                    </li>
+
+                    
+                    
+                                        <li class="global-footer-column">
+
+                                                                                                <h3 class="policy" data-git="" toggle-selector="ul" data-toggle-relation="sibling" data-toggle-size="640">Policies</h3>
+                        <ul data-metrics-section="0" data-metrics-sel="li" class="expanded">
+                                                                                    <li>
+                                <a href="../about-webmd-policies/about-privacy-policy.html" data-st-mmodule="ftr" data-st-mlink="1-1">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/cookie-policy.html" data-st-mmodule="ftr" data-st-mlink="1-2">
+                                    Cookie Policy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/about-editorial-policy.html" data-st-mmodule="ftr" data-st-mlink="1-3">
+                                    Editorial Policy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/about-advertising-policy.html" data-st-mmodule="ftr" data-st-mlink="1-4">
+                                    Advertising Policy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/webmd-corrections-policies.html" data-st-mmodule="ftr" data-st-mlink="1-5">
+                                    Correction Policy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/about-terms-and-conditions-of-use.html" data-st-mmodule="ftr" data-st-mlink="1-6">
+                                    Terms of Use
+                                </a>
+                            </li>
+                                                                                </ul>
+                                                                                                                        <h3 class="footer-mobile-collapse" data-toggle-selector="ul" data-toggle-relation="sibling" data-toggle-size="640">About</h3>
+                        <ul data-metrics-section="1" data-metrics-sel="li">
+                                                                                    <li>
+                                <a href="https://customercare.webmd.com/" data-st-mmodule="ftr" data-st-mlink="2-1">
+                                    Contact Us
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/default.html" data-st-mmodule="ftr" data-st-mlink="2-2">
+                                    About WebMD
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://careers.webmd.com/" data-st-mmodule="ftr" data-st-mlink="2-3">
+                                    Careers
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://member.webmd.com/subscribe" data-st-mmodule="ftr" data-st-mlink="2-4">
+                                    Newsletter
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../corporate/default.html" data-st-mmodule="ftr" data-st-mlink="2-5">
+                                    Corporate
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.webmdhealthservices.com/" data-st-mmodule="ftr" data-st-mlink="2-6">
+                                    WebMD Health Services
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../sitemap.html" data-st-mmodule="ftr" data-st-mlink="2-7">
+                                    Site Map
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/accessibility-statement.html" data-st-mmodule="ftr" data-st-mlink="2-8">
+                                    Accessibility
+                                </a>
+                            </li>
+                                                                                </ul>
+                                                                    </li>
+                    
+                    
+                                        <li class="global-footer-column">
+
+                                                                                                <h3 class="footer-mobile-collapse" data-toggle-selector="ul" data-toggle-relation="sibling" data-toggle-size="640">WebMD Network</h3>
+                        <ul data-metrics-section="0" data-metrics-sel="li">
+                                                                                    <li>
+                                <a href="https://www.medscape.com/" data-st-mmodule="ftr" data-st-mlink="3-1">
+                                    Medscape
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://reference.medscape.com/" data-st-mmodule="ftr" data-st-mlink="3-2">
+                                    Medscape Reference
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.medicinenet.com/" data-st-mmodule="ftr" data-st-mlink="3-3">
+                                    MedicineNet
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.emedicinehealth.com/script/main/hp.asp" data-st-mmodule="ftr" data-st-mlink="3-4">
+                                    eMedicineHealth
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.rxlist.com/" data-st-mmodule="ftr" data-st-mlink="3-5">
+                                    RxList
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.onhealth.com/" data-st-mmodule="ftr" data-st-mlink="3-6">
+                                    OnHealth
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../rx.html" data-st-mmodule="ftr" data-st-mlink="3-7">
+                                    WebMDRx
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../first-aid/default.html" data-st-mmodule="ftr" data-st-mlink="3-8">
+                                    First Aid
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../magazine/default.html" data-st-mmodule="ftr" data-st-mlink="3-9">
+                                    WebMD Magazine
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../phr.html" data-st-mmodule="ftr" data-st-mlink="3-10">
+                                    WebMD Health Record
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://dictionary.webmd.com/default.htm" data-st-mmodule="ftr" data-st-mlink="3-11">
+                                    Dictionary
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://doctor.webmd.com/" data-st-mmodule="ftr" data-st-mlink="3-12">
+                                    Physician Directory
+                                </a>
+                            </li>
+                                                                                </ul>
+                                                                    </li>
+                    
+                    
+                                        <li class="global-footer-column">
+
+                                                                                                <h3 class="footer-mobile-collapse" data-toggle-selector="ul" data-toggle-relation="sibling" data-toggle-size="640">Our Apps</h3>
+                        <ul data-metrics-section="0" data-metrics-sel="li">
+                                                                                    <li>
+                                <a href="../mobile.html" data-st-mmodule="ftr" data-st-mlink="4-1">
+                                    WebMD Mobile
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../webmdapp.html" data-st-mmodule="ftr" data-st-mlink="4-2">
+                                    WebMD App
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../pregnancy-app.html" data-st-mmodule="ftr" data-st-mlink="4-3">
+                                    Pregnancy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../baby-app.html" data-st-mmodule="ftr" data-st-mlink="4-4">
+                                    Baby
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../mobile.html" data-st-mmodule="ftr" data-st-mlink="4-5">
+                                    Allergy
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.medscape.com/public/mobileapp" data-st-mmodule="ftr" data-st-mlink="4-6">
+                                    Medscape
+                                </a>
+                            </li>
+                                                                                </ul>
+                                                                                                                        <h3 class="footer-mobile-collapse" data-toggle-selector="ul" data-toggle-relation="sibling" data-toggle-size="640">For Advertisers</h3>
+                        <ul data-metrics-section="1" data-metrics-sel="li">
+                                                                                    <li>
+                                <a href="https://mediakit.webmd.com/" data-st-mmodule="ftr" data-st-mlink="5-1">
+                                    Advertise with Us
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="../about-webmd-policies/about-advertising-policy.html" data-st-mmodule="ftr" data-st-mlink="5-2">
+                                    Advertising Policy
+                                </a>
+                            </li>
+                                                                                </ul>
+                                                                    </li>
+                    
+                                    </ul>
+            </nav>
+            <div class="global-footer-certificates">
+                <ul>
+                    <li>
+                        <a href="https://privacy.truste.com/privacy-seal/validation?rid=07326333-3522-463d-81bf-f00fd7171fff" target="_blank">
+                            <img src="https://privacy-policy.truste.com/privacy-seal/seal?rid=07326333-3522-463d-81bf-f00fd7171fff" height="45" width="142" alt="TRUSTe" title="TRUSTe Privacy Certification">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img title="TAG Registered Seal" width="61" height="60" alt="TAG Registered Seal" src="../../img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/layout/shared/tag-registeredc149.png?resize=*:60px">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://www.hon.ch/HONcode/Conduct.html?HONConduct298987">
+                            <img src="../../www.honcode.ch/HONcode/Seal/HONConduct298987_s1.gif" alt="Honcode Seal" title="This site complies with the HONcode standard for trustworthy health information." height="60" width="43">
+                        </a>
+                    </li>
+                    <li>
+                        <script src="https://preferences.trustarc.com/webservices/js?domain=webmd&amp;type=webmd_popnew&amp;js=responsive" type="text/javascript">
+                        </script>
+                        <a style="cursor:pointer" onclick="TRUSTeWidget.Tab.link()">
+                            <img src="../../choices.trustarc.com/get6c3b.png?name=admarker2.png" width="77" height="16" alt="Adchoices" title="Adchoices" border="0">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="global-footer-copyright">
+                <p>© 2005 - 2019 WebMD LLC. All rights reserved.</p>
+                <p>WebMD does not provide medical advice, diagnosis or treatment.</p>
+                <p>
+                    <a href="../about-webmd-policies/additional-info.html">See additional information.</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    
+</div></div></div></div></div></div></div></div><div id="ple_fixed" data-control="section" class="section section--fixed  "><div class="section--inner"><div class="ple__browserlock-modules"><div class="row"><div></div></div></div><div class="ple__back-to-top"><a href="#top" class="btn btn--back-to-top"><i class="back-to-top__icon"></i></a></div></div></div></div>
+    </div>
+    <!-- common and theme scripts -->
+<script type="text/javascript" src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/themes/common/javascripts/vendor/jqu/jquery-1.11.1.min.1494"></script>
+<!-- global css file -->
+<script type='text/javascript'>
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = '../../img.wbmdstatic.com/webmd_static_vue/webmd-storytelling/css/st-base.min.css';
+$('head').prepend(link);
+</script>
+<!-- Global js for Base theme includes Adds and GDPR -->
+<script type="text/javascript" src="../../img.wbmdstatic.com/webmd_static_vue/webmd-storytelling/js/st-base.min.es6.js"></script>
+
+
+
+<!-- cms scripts -->
+<script src="../../img.wbmdstatic.com/webmd_static_vue/st-fee07ede-66a0-ec11-8d5f-aa6cb854a633/combine/0a45c7d74ab514df77cabb852543ac1b-1648562850.1497.del" defer=""></script>
+<!--bi common omniture  js  -->
+<script type="text/javascript" src="../../img.webmd.com/bi_common/bi_consumerbf59.js?9-26-2022"></script></div><script type="text/javascript">
++function() {
+    "use strict";
+
+    // Show ada-toolbar btn after page is loaded
+    window.onload = function() {
+        document.getElementById("ada-toolbar").style.display = "block";
+    };
+
+    var activeModal = null,
+        i,
+        toggleModal =  function(id) {
+            id = (typeof id !== 'undefined') ?  id : null;
+
+            // Close if another modal is visible
+            if (activeModal) {
+                activeModal.style.display = "none";
+            }
+            // Select the modal if id is provided
+            if (id) {
+                activeModal = document.getElementById(id);
+                activeModal.style.display = "block";
+            }
+            // Get the links in the modal and the event handlers
+            var link = activeModal.querySelector(".ada_modal--link"),
+                closeBtn = activeModal.querySelector(".ada_modal--close"),
+                linkHandler = function(e) {
+                    if (e.which === 9) {
+                        e.preventDefault();
+                        closeBtn.focus();
+                    }
+                },
+                closeHandler = function(e) {
+                    if (e.which === 9) {
+                        e.preventDefault();
+                        link.focus();
+                    }
+                },
+                escButtonHandler = function(e) {
+                    if (e.which === 27 && activeModal !== null) {
+                        e.preventDefault();
+                        activeModal.style.display = "none";
+                    }
+                },
+                closeModalHandler = function(e) {
+                    if (e.target == activeModal) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleModal();
+                    }
+                };
+
+            if (id === null) {
+                // remove the event listeners
+                activeModal.removeEventListener('click', closeModalHandler);
+                link.removeEventListener('keydown', linkHandler);
+                closeBtn.removeEventListener('keydown', closeHandler);
+                document.removeEventListener('keydown', escButtonHandler);
+                activeModal.style.display = "none";
+                activeModal = null;
+                return;
+            }
+            // add event listeners for tab, shift + tab and close modal
+            activeModal.addEventListener('click', closeModalHandler);
+            closeBtn.addEventListener('keydown', closeHandler);
+            link.addEventListener('keydown', linkHandler);
+            document.addEventListener('keydown', escButtonHandler);
+            link.focus();
+        };
+
+    // init the modals
+    var modals = document.querySelectorAll("[data-action=modal]");
+    for (i = 0; i < modals.length; i++) {
+        modals[i].addEventListener('click', function(e) {
+            e.preventDefault();
+            toggleModal(this.getAttribute("data-modal-id"));
+        });
+    }
+
+    // button for enabling ada mode
+    document.querySelector("[data-action=accessible]").addEventListener("click", function() {
+        window.location.href = "diabetese876.html?ada_mode=1";
+    });
+
+    // buttons for closing the modal
+    var closeBtns = document.querySelectorAll("[data-action=close]");
+    for (i = 0; i < closeBtns.length; i++) {
+        closeBtns[i].addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleModal();
+        });
+    };
+
+    // remove the ada toolbar
+    document.querySelector("[data-action=remove-accessible]").addEventListener("click", function(e) {
+        e.preventDefault();
+        document.getElementById("ada-toolbar").style.display = "none";
+        toggleModal();
+    });
+
+    var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (!mutation.addedNodes) return;
+
+            if (document.body.firstChild.id !== "ada-toolbar") {
+                document.body.insertBefore(document.getElementById("ada-toolbar"), document.body.childNodes[0]);
+                document.body.insertBefore(document.getElementById("ada-modal-on"), document.body.childNodes[1]);
+                document.body.insertBefore(document.getElementById("ada-modal-off"), document.body.childNodes[1]);
+            }
+        })
+    });
+
+    observer.observe(document.body, {
+        childList: true
+        , subtree: true
+        , attributes: false
+        , characterData: false
+    });
+}();
+</script>
+<script>
+$( document ).ready(function() {
+$("a").each(function(){
+    var hrefValue = $(this).attr('href');
+    if(hrefValue){
+        if(!hrefValue.toLowerCase().includes('webmd') && hrefValue.includes('http')){
+            overrideExternalLink($(this));
+        }
+    }    
+});
+function overrideExternalLink(ele){
+    ele.off('click').on('click', function(e) {
+        let mmodule = $(this).attr('data-st-mmodule');
+		let mlink = $(this).attr('data-st-mlink');
+		if (mmodule && mlink) {
+			window.wmdPageLink(`${mmodule}_${mlink}`);
+		}
+		e.preventDefault();
+		var hre = $(this).attr('href');
+		window.open(hre, "_blank");
+    });
+}
+
+});
+</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"94778f977a","applicationID":"27163309","transactionName":"MlFUMhRZD0AEAkMPVgsbdwUSUQ5dSiJaFWUmWFcVFV0SbyYMRCVWC0BECQpUBEElE0II","queueTime":0,"applicationTime":535,"atts":"HhZDRFxDHB9HABVcQhhJ","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+<!-- Mirrored from www.webmd.com/takecontrol/diabetes by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Sep 2022 17:25:15 GMT -->
+</html>
